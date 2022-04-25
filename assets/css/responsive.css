@@ -1,0 +1,759 @@
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .sidebar_wrap {
+    width: 210px;
+  }
+
+  .cb_main_content {
+    margin-left: 210px;
+  }
+
+  .cb_generate_wrap {
+    padding: 0px 20px;
+  }
+
+  .cb_Generate_btn button {
+    width: 74px;
+  }
+
+  .cb_all_table_wrap {
+    margin: 0px 20px 30px 20px;
+  }
+
+  .cb_export_wrap {
+    padding: 45px 20px 16px 20px;
+  }
+
+  .cb_generat_item {
+    flex-flow: row wrap;
+  }
+
+  .cb_camp_gen_btn {
+    padding-top: 15px;
+  }
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .mobile_sidebar {
+    width: 0px;
+    z-index: 100;
+    visibility: hidden;
+    transition: width .1s ease-in;
+    opacity: 0;
+  }
+
+  .mobile_sidebar.mobile_active {
+    width: 210px;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .cb_main_content {
+    margin-left: 0px;
+  }
+
+  .cb_generate_wrap {
+    padding: 0px 20px;
+  }
+
+  .cb_Generate_btn button {
+    width: 74px;
+  }
+
+  .cb_all_table_wrap {
+    margin: 0px 20px 30px 20px;
+  }
+
+  .cb_export_wrap {
+    padding: 45px 20px 16px 20px;
+  }
+
+  .cb_generat_item {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .cb_from_to_date_wrap {
+    justify-content: center;
+  }
+
+  .add_campaign_box_wrap {
+    width: 94%;
+    padding-top: 50px;
+  }
+
+  .add_location_md_dvic {
+    justify-content: flex-start;
+  }
+
+  .mobil_include_holy {
+    padding-left: 27px !important;
+  }
+
+  .add_cam_foo_row {
+    width: 100%;
+  }
+
+  .override_bootstrap_pop_modal {
+    max-width: 95vw !important;
+  }
+
+  .camp_view_field input,
+  .camp_view_field select {
+    width: 28.5vw !important;
+  }
+
+  .camp_view_field label {
+    margin-right: 4em;
+  }
+}
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+  .mega_user_box {
+    width: 92%;
+    height: 555px;
+  }
+
+  .mega_user_row {
+    width: 90%;
+  }
+
+  .mega_user_box h4 {
+    font-size: 25px;
+    padding-bottom: 30px;
+  }
+
+  .mega_user_register {
+    height: 650px;
+  }
+
+
+  .mobile_sidebar {
+    width: 0px;
+    z-index: 100;
+    visibility: hidden;
+    transition: width .1s ease-in;
+    opacity: 0;
+  }
+
+  .mobile_sidebar.mobile_active {
+    width: 210px;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .cb_main_content {
+    margin-left: 0px;
+  }
+
+  .cb_generate_wrap {
+    padding: 0px 20px;
+  }
+
+  .cb_Generate_btn button {
+    width: 74px;
+  }
+
+  .cb_all_table_wrap {
+    margin: 0px 13px 35px 13px;
+  }
+
+  .cb_export_wrap {
+    padding: 25px 13px 16px 13px;
+  }
+
+  .cb_generat_item {
+    flex-direction: column;
+  }
+
+  .main_logo img {
+    width: 150px;
+  }
+
+  .cb_header {
+    height: 60px;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  .cb_bar {
+    padding-left: 15px;
+    cursor: pointer;
+  }
+
+  .cb_heading {
+    padding: 15px 13px;
+  }
+
+  .cb_from_to_date_wrap {
+    flex-direction: column;
+  }
+
+  .sum_item {
+    width: 70px;
+  }
+
+  .header_simple_sum {
+    padding-top: 18px;
+    padding-bottom: 14px;
+    margin-right: 0px;
+  }
+
+  .sum_item span {
+    font-size: 9px;
+    line-height: 12px;
+  }
+
+  .cb_heading h5 {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+
+  .cb_date {
+    margin-bottom: 15px;
+  }
+
+  .cb_date:nth-child(2) {
+    margin-left: 14px;
+  }
+
+  .cb_generate_client {
+    justify-content: center;
+    display: flex;
+  }
+
+  .cb_table_wrap td {
+    padding: 10px 15px;
+  }
+
+  .cb_table_wrap tr:nth-child(even) {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .cb_table_wrap tr:nth-child(odd) {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .cb_camp_gen_btn {
+    margin-right: -91px;
+  }
+
+  .camp_checkbox_wrap label {
+    margin-left: 10px;
+  }
+
+  .camp_status ul {
+    margin-left: 4em;
+  }
+
+  .add_campaign_box_wrap {
+    width: 96%;
+    padding-top: 35px;
+  }
+
+  .add_campaign_form_control_item {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .cb_camp_gen_btn {
+    margin-top: 15px;
+  }
+
+  .add_cam_foo_row {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .add_camp_stock_input_box input {
+    width: 88%;
+  }
+
+  .add_camp_acc_wrap img {
+    margin-left: 4em;
+    width: 20px;
+  }
+
+  .cam_same_input_width .bootstrap-select {
+    width: 85vw !important;
+  }
+
+  .cam_same_input_width input {
+    width: 85vw !important;
+  }
+
+  .cb_heading h6 {
+    margin-top: -1px;
+  }
+
+  .add_campaign_footer_submit button {
+    margin-bottom: 15px;
+  }
+
+  .add_campaign_footer_submit {
+    margin-top: 35px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+
+  .add_campaign_footer_submit button {
+    margin-bottom: 15px;
+  }
+
+  .mobile_col_ffff {
+    flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: flex-start;
+  }
+
+  .location_set_input_re input,
+  .location_set_input_re textarea {
+    width: 100% !important;
+  }
+
+  .location_set_input_re label {
+    width: auto;
+    margin-right: 0;
+    text-align: left !important;
+  }
+
+  .add_location_md_dvic {
+    margin-right: 0px;
+  }
+
+  .add_location_md_dvic label {
+    display: block;
+  }
+
+  .add_campaign_same_box {
+    padding: 0px 27px 25px 24px;
+  }
+
+  .mobil_include_holy {
+    padding-left: 30px !important;
+    margin-top: 0px !important;
+  }
+
+  .add_camp_promter_input {
+    width: 90% !important;
+  }
+
+  .add_campaign_same_box h5 {
+    margin-right: -27px;
+    padding-right: 33px;
+  }
+
+  .new_campaign_loacation_box h5 {
+    padding: 0px 0px;
+  }
+
+  .mobil_include_holy {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .location_set_input_re input,
+  .location_set_input_re textarea {
+    width: 90% !important;
+  }
+
+  .location_set_input_re label {
+    width: auto;
+    margin-right: 0;
+    text-align: left !important;
+  }
+
+  .add_location_md_dvic {
+    align-items: flex-start;
+  }
+
+  .add_location_md_dvic label {
+    display: block;
+  }
+
+  .add_campaign_same_box {
+    padding: 0px 12px 17px 12px;
+  }
+
+  .mobil_include_holy {
+    margin-top: 0px !important;
+  }
+
+  .add_camp_promter_input {
+    width: 90% !important;
+  }
+
+  .add_campaign_same_box h5 {
+    margin-right: -12px;
+    padding-right: 10px;
+    margin-left: -11px;
+    padding-left: 11px;
+  }
+
+  .new_campaign_loacation_box h5 {
+    padding: 0px 0px;
+  }
+
+  .mobile_flex_column {
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    display: flex !important;
+    margin-left: 0 !important;
+  }
+
+  .location_ca_same_time label {
+    text-align: left !important;
+  }
+
+  .mobile_flex_column input {
+    width: 78vw !important;
+  }
+
+  .mobile_flex_column .bootstrap-select {
+    width: 78vw !important;
+  }
+
+  .mobile_vw_width {
+    width: 78vw !important;
+  }
+
+  .campaign_view_footer_row {
+    width: 94%;
+  }
+
+  .camp_view_field label {
+    margin-right: 2em;
+    width: 10em;
+  }
+
+  .campaign_view_footer {
+    margin-top: 45px;
+    padding-bottom: 40px;
+  }
+
+  .camp_view_field input,
+  .camp_view_field select {
+    width: auto;
+  }
+
+  .camp_view_field .mega_select.bootstrap-select .btn-light {
+    width: auto !important;
+  }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .mega_user_box {
+    width: 92%;
+    height: 555px;
+  }
+
+  .mega_user_row {
+    width: 90%;
+  }
+
+  .mega_user_box h4 {
+    font-size: 25px;
+    padding-bottom: 30px;
+  }
+
+  .mega_user_register {
+    height: 650px;
+  }
+
+
+  .mobile_sidebar {
+    width: 0px;
+    z-index: 100;
+    visibility: hidden;
+    transition: width .1s ease-in;
+    opacity: 0;
+  }
+
+  .mobile_sidebar.mobile_active {
+    width: 210px;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .cb_main_content {
+    margin-left: 0px;
+  }
+
+  .cb_generate_wrap {
+    padding: 0px 20px;
+  }
+
+  .cb_Generate_btn button {
+    width: 74px;
+  }
+
+  .cb_all_table_wrap {
+    margin: 0px 13px 35px 13px;
+  }
+
+  .cb_export_wrap {
+    padding: 25px 13px 16px 13px;
+  }
+
+  .cb_generat_item {
+    flex-direction: column;
+  }
+
+  .main_logo img {
+    width: 150px;
+  }
+
+  .cb_header {
+    height: 60px;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  .cb_bar {
+    padding-left: 15px;
+    cursor: pointer;
+  }
+
+  .cb_heading {
+    padding: 15px 13px;
+  }
+
+  .cb_from_to_date_wrap {
+    flex-direction: column;
+  }
+
+  .sum_item {
+    width: 70px;
+  }
+
+  .header_simple_sum {
+    padding-top: 18px;
+    padding-bottom: 14px;
+    margin-right: 0px;
+  }
+
+  .sum_item span {
+    font-size: 9px;
+    line-height: 12px;
+  }
+
+  .cb_heading h5 {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+
+  .cb_date {
+    margin-bottom: 15px;
+  }
+
+  .cb_date:nth-child(2) {
+    margin-left: 14px;
+  }
+
+  .cb_generate_client {
+    justify-content: center;
+    display: flex;
+  }
+
+  .cb_table_wrap td {
+    padding: 10px 15px;
+  }
+
+  .cb_table_wrap tr:nth-child(even) {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .cb_table_wrap tr:nth-child(odd) {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .cb_camp_gen_btn {
+    margin-right: -91px;
+  }
+
+  .camp_checkbox_wrap label {
+    margin-left: 10px;
+  }
+
+  .camp_status ul {
+    margin-left: 4em;
+  }
+
+  .add_campaign_box_wrap {
+    width: 96%;
+    padding-top: 35px;
+  }
+
+  .add_campaign_form_control_item {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .cb_camp_gen_btn {
+    margin-top: 15px;
+  }
+
+  .add_cam_foo_row {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .add_camp_stock_input_box input {
+    width: 88%;
+  }
+
+  .add_camp_acc_wrap img {
+    margin-left: 4em;
+    width: 20px;
+  }
+
+  .cam_same_input_width .bootstrap-select {
+    width: 85vw !important;
+  }
+
+  .cam_same_input_width input {
+    width: 85vw !important;
+  }
+
+  .cb_heading h6 {
+    margin-top: -1px;
+  }
+
+  .add_campaign_footer_submit button {
+    margin-bottom: 15px;
+  }
+
+  .mobile_col_ffff {
+    flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: flex-start;
+  }
+
+  .add_campaign_footer_submit {
+    margin-top: 35px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+
+
+  .location_set_input_re input,
+  .location_set_input_re textarea {
+    width: 93% !important;
+  }
+
+  .location_set_input_re label {
+    width: auto;
+    margin-right: 0;
+    text-align: left !important;
+  }
+
+  .add_location_md_dvic {
+    align-items: flex-start;
+  }
+
+  .add_location_md_dvic label {
+    display: block;
+  }
+
+  .add_campaign_same_box {
+    padding: 0px 12px 17px 12px;
+  }
+
+  .mobil_include_holy {
+    margin-top: 0px !important;
+  }
+
+  .add_camp_promter_input {
+    width: 90% !important;
+  }
+
+  .add_campaign_same_box h5 {
+    margin-right: -12px;
+    padding-right: 10px;
+    margin-left: -11px;
+    padding-left: 11px;
+  }
+
+  .mobile_flex_column {
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    display: flex !important;
+    margin-left: 0 !important;
+  }
+
+  .location_ca_same_time label {
+    text-align: left !important;
+  }
+
+  .mobile_flex_column input {
+    width: 80vw !important;
+  }
+
+  .mobile_flex_column .bootstrap-select {
+    width: 80vw !important;
+  }
+
+  .mobile_vw_width {
+    width: 80vw !important;
+  }
+
+  .campaign_view_footer_row {
+    width: 94%;
+  }
+
+  .camp_view_field label {
+    margin-right: 2em;
+    width: 10em;
+  }
+
+  .campaign_view_footer {
+    margin-top: 45px;
+    padding-bottom: 40px;
+  }
+
+  .camp_view_field input,
+  .camp_view_field select {
+    width: 100%;
+
+  }
+
+  .camp_view_field .mega_select.bootstrap-select .btn-light {
+    width: auto !important;
+  }
+
+  .mega_campaign_view_heading {
+    padding: 15px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
